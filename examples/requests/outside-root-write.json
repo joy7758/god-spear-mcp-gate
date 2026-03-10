@@ -1,0 +1,5 @@
+{
+  "request_id": "req_outside_write_001",
+  "requested_action": "write_file",
+  "target": "../external/notes.txt"
+}

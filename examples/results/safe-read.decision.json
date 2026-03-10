@@ -1,0 +1,11 @@
+{
+  "request_id": "req_safe_read_001",
+  "requested_action": "read_file",
+  "target": "workspace/docs/approved-vendors.md",
+  "decision": "allow",
+  "reason": "Requested action is allowed within approved roots.",
+  "policy_refs": [
+    "allowed_actions",
+    "allowed_roots"
+  ]
+}

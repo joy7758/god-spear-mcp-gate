@@ -1,0 +1,21 @@
+{
+  "version": "1",
+  "allowed_actions": [
+    "read_file",
+    "list_directory"
+  ],
+  "denied_actions": [
+    "delete_file"
+  ],
+  "review_actions": [
+    "write_file"
+  ],
+  "allowed_roots": [
+    "workspace/docs",
+    "workspace/reports"
+  ],
+  "notes": [
+    "This is a minimal demo policy for preflight gating.",
+    "The policy is intended to stay small, readable, and removable."
+  ]
+}
