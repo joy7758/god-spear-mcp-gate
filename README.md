@@ -5,6 +5,12 @@ Low-intrusion preflight trust gating for MCP-style tool requests.
 Part of the Agent Runtime Safety Kit.  
 This repo shows how to place a removable boundary check in front of MCP-style tool execution.
 
+## Positioning
+
+This is a minimal MCP-style preflight trust gate.
+It sits before tool execution in a small runtime control chain.
+It is not a full MCP server platform.
+
 ## What this is
 
 - A docs-first and minimal runnable demo.
@@ -43,6 +49,7 @@ pytest
 - [Outside Root Write Request](examples/requests/outside-root-write.json)
 - [Safe Read Decision](examples/results/safe-read.decision.json)
 - [Outside Root Write Decision](examples/results/outside-root-write.decision.json)
+- [Runtime Control Chain Overview](https://github.com/joy7758/token-governor/blob/main/docs/outreach/runtime-control-chain-overview.md)
 
 ## Decision Model
 
